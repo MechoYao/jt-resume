@@ -1,6 +1,6 @@
 export const SITE_DATA = {
   personal: {
-    name: "Your Name",
+    name: "JIANG TIAN",
     title: "Composer & Researcher",
     institution: "New England Conservatory",
     email: "your.email@necmusic.edu",
