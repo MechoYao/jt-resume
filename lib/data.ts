@@ -5,9 +5,7 @@ export const SITE_DATA = {
     institution: "New England Conservatory",
     email: "jt2000wjjy@163.com",
     socials: {
-      // github: "https://github.com",
-      // linkedin: "https://linkedin.com",
-      // instagram: "https://instagram.com"
+      Website: "https://tianjiangmusic.com"
     }
   },
   hero: {
