@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { SITE_DATA } from "@/lib/data";
 import { Download } from "lucide-react";
-import { getAssetPath } from "@/lib/utils";
 
 export function CV() {
   return (
@@ -15,7 +14,7 @@ export function CV() {
             <p className="text-stone-400">Academic and artistic achievements.</p>
           </div>
           <a
-            href={getAssetPath("resume.pdf")}
+            href={"resume.pdf"}
             className="flex items-center gap-2 px-6 py-3 border border-stone-700 hover:bg-stone-800 transition-colors rounded-sm text-sm tracking-wider uppercase"
           >
             <Download className="w-4 h-4" />

@@ -60,7 +60,7 @@ export function Hero() {
                 href={SITE_DATA.works[0].link} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-stone-900 text-stone-50 text-sm tracking-[0.2em] uppercase hover:bg-stone-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-stone-900 text-stone-50 text-xl tracking-[0.2em] uppercase hover:bg-stone-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
                 {SITE_DATA.works[0].title}
                 <ArrowRight className="w-4 h-4" />
