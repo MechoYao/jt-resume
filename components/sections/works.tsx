@@ -79,7 +79,8 @@ export function Works() {
                     className="flex items-center gap-2 text-sm font-medium text-stone-900 hover:underline underline-offset-4"
                   >
                     <Play className="w-3 h-3 fill-current" />
-                    Listen / Score
+                    Link
+                    {/* Listen / Score */}
                   </a>
                 </div>
               </motion.div>

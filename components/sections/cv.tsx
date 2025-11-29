@@ -25,7 +25,7 @@ export function CV() {
 
         <div className="space-y-16">
             {/* Awards Section */}
-            <div>
+            {/* <div>
                 <h3 className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-8 border-b border-stone-800 pb-4">Awards & Honors</h3>
                 <div className="space-y-6">
                     {SITE_DATA.cv.awards.map((award, i) => (
@@ -45,7 +45,7 @@ export function CV() {
                         </motion.div>
                     ))}
                 </div>
-            </div>
+            </div> */}
         </div>
       </div>
     </section>

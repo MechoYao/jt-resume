@@ -3,18 +3,18 @@ export const SITE_DATA = {
     name: "JIANG TIAN",
     title: "Composer & Researcher",
     institution: "New England Conservatory",
-    email: "your.email@necmusic.edu",
+    email: "jt2000wjjy@163.com",
     socials: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      instagram: "https://instagram.com"
+      // github: "https://github.com",
+      // linkedin: "https://linkedin.com",
+      // instagram: "https://instagram.com"
     }
   },
   hero: {
     quote: "Exploring the intersection of acoustic tradition and electronic innovation.",
   },
   about: {
-    bio: `I am a composer based in Boston, currently pursuing a Master of Music in Composition at the New England Conservatory. My work focuses on... [Placeholder for your artistic statement].
+    bio: `I am a composer based in Boston, currently pursuing a Master of Music in Composition at the New England Conservatory.
 
     My research interests include spectralism, algorithmic composition, and the phenomenology of time in music.`,
     education: [
@@ -25,54 +25,36 @@ export const SITE_DATA = {
         location: "Boston, MA"
       },
       {
-        school: "Previous Institution",
-        degree: "Bachelor of Music",
-        year: "2020 - 2024",
-        location: "City, Country"
+        school: "National Academy of Chinese Theatre Arts (NACTA)",
+        degree: "Bachelor of Music in Composition (Opera composition)",
+        year: "2019 - 2024",
+        location: "Beijing, China"
       }
     ]
   },
   works: [
     {
       id: 1,
-      title: "Symphony No. 1 'The Void'",
-      year: "2024",
-      category: "Orchestral",
-      description: "For full orchestra (3333 4331 T+3 Hp Str)",
-      duration: "12'",
-      link: "#",
-    },
-    {
-      id: 2,
-      title: "String Quartet No. 3",
-      year: "2023",
-      category: "Chamber",
-      description: "Commissioned by [Ensemble Name]",
-      duration: "15'",
-      link: "#",
-    },
-    {
-      id: 3,
-      title: "Electronic Etudes",
-      year: "2023",
-      category: "Electronic",
-      description: "Max/MSP and Fixed Media",
-      duration: "8'",
-      link: "#",
+      title: "All Works in Google Drive",
+      year: "All",
+      category: "Collection",
+      description: "Collection of compositions and research works stored in Google Drive. Access all pieces and documentation here.",
+      duration: "Varies",
+      link: "https://drive.google.com/drive/folders/1CIpZunCevfZRksqbOb0clYNsXz03no-T",
     }
   ],
   cv: {
     awards: [
-      {
-        title: "Composition Prize A",
-        year: "2023",
-        organization: "Organization Name"
-      },
-      {
-        title: "Residency B",
-        year: "2022",
-        organization: "Arts Center"
-      }
+      // {
+      //   title: "Composition Prize A",
+      //   year: "2023",
+      //   organization: "Organization Name"
+      // },
+      // {
+      //   title: "Residency B",
+      //   year: "2022",
+      //   organization: "Arts Center"
+      // }
     ]
   }
 };
