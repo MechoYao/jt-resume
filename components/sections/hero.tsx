@@ -37,9 +37,9 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="space-y-2"
         >
-          <h2 className="text-sm sm:text-base tracking-[0.2em] uppercase text-stone-500 pl-1">
+          {/* <h2 className="text-sm sm:text-base tracking-[0.2em] uppercase text-stone-500 pl-1">
             {SITE_DATA.personal.institution}
-          </h2>
+          </h2> */}
           <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-serif font-normal tracking-tight text-stone-900 leading-[0.9]">
             {SITE_DATA.personal.name}
           </h1>
@@ -51,9 +51,19 @@ export function Hero() {
             transition={{ delay: 0.8, duration: 1 }}
             className="mt-12 max-w-xl"
         >
-            <p className="text-lg sm:text-xl md:text-2xl font-light text-stone-600 leading-relaxed italic font-serif">
+            {/* <p className="text-lg sm:text-xl md:text-2xl font-light text-stone-600 leading-relaxed italic font-serif">
                 "{SITE_DATA.hero.quote}"
-            </p>
+            </p> */}
+            <div className="text-lg sm:text-xl md:text-2xl font-light text-stone-600 leading-relaxed font-serif">
+              <a 
+                href={SITE_DATA.works[0].link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="border-b border-stone-900 hover:border-stone-500 transition-all pb-1"
+              >
+                {SITE_DATA.works[0].title}
+              </a>
+            </div>
         </motion.div>
 
         <motion.div
