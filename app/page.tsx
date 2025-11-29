@@ -10,8 +10,8 @@ export default function Home() {
     <main className="min-h-screen flex flex-col">
       <Nav />
       <Hero />
-      <About />
-      <Works />
+      {/* <About /> */}
+      {/* <Works /> */}
       <CV />
       <Footer />
     </main>

@@ -33,7 +33,7 @@ export const SITE_DATA = {
   works: [
     {
       id: 1,
-      title: "All Works in Google Drive",
+      title: "2026 Fall Application Portfolio",
       year: "All",
       category: "Collection",
       description: "Collection of compositions and research works stored in Google Drive. Access all pieces and documentation here.",

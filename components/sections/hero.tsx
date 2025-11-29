@@ -54,12 +54,12 @@ export function Hero() {
             {/* <p className="text-lg sm:text-xl md:text-2xl font-light text-stone-600 leading-relaxed italic font-serif">
                 "{SITE_DATA.hero.quote}"
             </p> */}
-            <div className="text-lg sm:text-xl md:text-2xl font-light text-stone-600 leading-relaxed font-serif">
+            <div className="mt-8">
               <a 
                 href={SITE_DATA.works[0].link} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="border-b border-stone-900 hover:border-stone-500 transition-all pb-1"
+                className="inline-block px-8 py-4 bg-stone-900 text-stone-50 text-sm tracking-[0.2em] uppercase hover:bg-stone-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
                 {SITE_DATA.works[0].title}
               </a>
